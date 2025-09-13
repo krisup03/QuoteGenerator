@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+h1{
+    color: rgb(51, 0, 255);
+    text-align:end;
+    align-items: center;
+}
+
+body {
+  background-image: url('img.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  object-fit: contain;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+   
+    min-height: 100vh;
+  
+}
+
+.qbox{
+     border: 4px solid rgb(13, 21, 168);
+     height: 200px;
+     width:600px;
+     border-radius: 2%;
+     background-color:white;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+     
+     
+}
+
+#generator{
+     
+     color:blue;
+     height: 25px;
+     width:100px;
+    
+}
